@@ -1,0 +1,49 @@
+* {
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+
+header {
+    background-image: url(img/guitar.jpg);
+    height: 80vh;
+    background-size: cover;
+    position: relative;
+}
+
+.title {
+    color: #fff;
+}
+
+.title-box {
+    width: 50%;
+    background-color: blue;
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.navbar {
+    color: #fff;
+    width: 1200px;
+    display: flex; 
+    gap: 10px;
+}
+
+.btn:link, .btn:visited {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600px;
+    background-color: #e67e22;
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 32px;
+    border-radius: 10px;
+}
